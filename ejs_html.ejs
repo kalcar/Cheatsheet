@@ -1,0 +1,17 @@
+<script>
+
+const object = {"property":
+{ 
+    "key1": "value 1",
+    "key2": "value 2"
+}};
+
+
+</script>
+
+
+
+loop through and object and make some html element per object
+<% for (let [key, value] of Object.entries(object.property)) { %>
+    <option value = "<%= value %>"><%= value %></option>
+<% } %>
