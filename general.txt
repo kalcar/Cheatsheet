@@ -1,0 +1,9 @@
+naming conventions
+
+variables - camelCase - myVariable
+constants - UPPERCASE_UNDERSCORE - MY_CONSTANT
+functions - camelCase, verbs - getMyFunction
+classes - UpperCamelCase - MyClass (class instances are camelCase)
+modules/classes - lowercase_underscore-hyphen - package-name/package_name
+enumeration types - UpperCase_Underscore - DayOfWeek/Day_Of_Week
+file names - lowercase_underscore-hyphen - my_file/my-file
