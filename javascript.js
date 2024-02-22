@@ -102,3 +102,25 @@
 
 
 };
+
+{
+// Ternary Operator
+
+// structure takes 3 operands:
+// Condition
+// Question Mark (operator)
+// Expression if condition is truthy
+// Colon (structure/syntax?)
+// Express if condition is falsey
+
+let myVar = ""; // Falsey 
+
+myVar ? console.log("MyVar is truthy") : console.log("Myvar is less truthy");
+
+// But dont use it as a replacement for ifs. This is used primarily for variable assignment.
+// use ifs for clarity.
+
+let myVar2 = myVar ? "assign this if myvar is truthy" : "its falsey so this";
+
+
+};
